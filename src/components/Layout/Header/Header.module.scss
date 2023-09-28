@@ -1,0 +1,120 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-title {
+        margin: 0 2rem;
+        .logo {
+            width: 100px;
+            height: 60px;
+        }
+    }
+    .header-nav {
+        width: 40%;
+        
+        .nav-list {
+            display: flex;
+            justify-content: space-around;
+
+            .nav-item {
+                cursor: pointer;
+                border-bottom: 2px solid transparent;
+                width: 15%;
+                text-align: center;
+                transition: .25s;
+
+            }
+            .active {
+                animation: activeBorder .5s;
+                border-bottom: 2px solid var(--primary);
+                font-weight: 700;
+            }
+        }
+        .ham-list {
+            display: none;
+            justify-content: space-between;
+            
+            .ham-item {
+                font-size: 1.2rem;
+                border: 1px solid transparent;
+                padding: 4px 6px;
+                border-radius: 50%;
+            }
+            
+            .ham-icon {
+                font-size: 1.2rem;
+            }
+            .activeIcon {
+                color: var(--primary);
+                border-color: var(--primary);
+                transition: .25s;
+            }
+        }
+    }
+}
+
+@keyframes activeBorder {
+    0% {
+        width: 13%;
+        opacity: .7;
+    }
+    100% {
+        width: 15%;
+        opacity: 1;
+    }
+}
+
+@media(max-width: 320px) {
+    .wrapper {
+        .header-title {
+            margin: 0;
+        }
+        .header-nav {
+            width:50%;
+            .nav-list {
+                display: none;
+            }
+            .ham-list {
+                display: flex;
+                .activeIcon {
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+}
+@media(min-width: 321px) and (max-width: 540px) {
+    .wrapper {
+        .header-title {
+            margin: 0;
+        }
+        .header-nav {
+            width: 50%;
+            .nav-list {
+                display: none;
+            }
+            .ham-list {
+                display: flex;
+            }
+        }
+    }
+}
+@media(min-width: 541px) and (max-width: 720px) {
+    .wrapper {
+        .header-nav {
+            width: 60%;
+        }
+    }
+}
+@media(min-width: 721px) and (max-width: 960px) {
+    .wrapper {
+        .header-nav {
+            width: 60%;
+        }
+    }
+}
+@media(min-width: 961px) and (max-width: 1200px) {}
+@media(min-width: 1201px) and (max-width: 1500px) {}
+@media(min-width: 1501px) and (max-width: 1920px) {}
+@media(min-width: 1921px) {}

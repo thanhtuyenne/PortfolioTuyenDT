@@ -1,0 +1,25 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #e67e22;
+    --grey: #767676;
+    --black: #000;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
