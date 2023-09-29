@@ -15,19 +15,6 @@ function Introduce() {
             I'm <span className={cx("name-highlight")}>TuyenDT</span>
           </h1>
           <h3>Front-End Developer</h3>
-          <button className={cx("btn-cv")}>
-            <a
-              href="https://www.topcv.vn/xem-cv/U1BaDwZeVg5TAV5cUFZdWQsCUAdbAQQNVgAGXg1982"
-              target="_blank"
-              rel="noreferrer"
-            >
-              MY CV{" "}
-              <FontAwesomeIcon
-                icon={faInfoCircle}
-                className={cx("btn-info-icon")}
-              />
-            </a>
-          </button>
         </div>
         <div className={cx("right-container")}>
           <img alt="personal logo" className={cx("personal-logo")} src={Logo} />
