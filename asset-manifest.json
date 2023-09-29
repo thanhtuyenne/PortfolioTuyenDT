@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioTuyenDT/static/css/main.0853c60f.css",
-    "main.js": "/PortfolioTuyenDT/static/js/main.b3c8b64e.js",
+    "main.css": "/PortfolioTuyenDT/static/css/main.4e0abce7.css",
+    "main.js": "/PortfolioTuyenDT/static/js/main.76ccd7b7.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortfolioTuyenDT/static/js/787.1ed0c42c.chunk.js",
     "static/media/jquery.png": "/PortfolioTuyenDT/static/media/jquery.c30a45dbeb83fee199da.png",
     "static/media/sass.png": "/PortfolioTuyenDT/static/media/sass.91714f748188b46f4e33.png",
@@ -15,12 +15,12 @@
     "static/media/logo.webp": "/PortfolioTuyenDT/static/media/logo.4aa64e9545277065cb35.webp",
     "static/media/personal-orange.svg": "/PortfolioTuyenDT/static/media/personal-orange.a56fa1dbb057e184b5e7e1c1c67449f3.svg",
     "index.html": "/PortfolioTuyenDT/index.html",
-    "main.0853c60f.css.map": "/PortfolioTuyenDT/static/css/main.0853c60f.css.map",
-    "main.b3c8b64e.js.map": "/PortfolioTuyenDT/static/js/main.b3c8b64e.js.map",
+    "main.4e0abce7.css.map": "/PortfolioTuyenDT/static/css/main.4e0abce7.css.map",
+    "main.76ccd7b7.js.map": "/PortfolioTuyenDT/static/js/main.76ccd7b7.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortfolioTuyenDT/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0853c60f.css",
-    "static/js/main.b3c8b64e.js"
+    "static/css/main.4e0abce7.css",
+    "static/js/main.76ccd7b7.js"
   ]
 }
