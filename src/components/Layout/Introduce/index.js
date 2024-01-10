@@ -17,7 +17,7 @@ function Introduce() {
           <h3>Front-End Developer</h3>
           <button className={cx("btn-cv")}>
             <a
-              href="https://drive.google.com/file/d/1fl50n3SKssod2WAKR2LChBvufyw9hPgF/view?usp=sharing"
+              href="https://drive.google.com/file/d/1spZCwZGtVvwoqI30k6S8YPoHb7g60y43/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

@@ -13,6 +13,7 @@ import SASS from "~/assets/sass.png";
 import Playfab from "~/assets/playfab-mark.png";
 import JQuery from "~/assets/jquery.png";
 import Java from "~/assets/java.png";
+import Tailwind from "~/assets/tailwind.svg";
 //
 const cx = classNames.bind(styles);
 
@@ -76,6 +77,11 @@ const skills = [
     id: 12,
     name: "Java",
     icon: Java,
+  },
+  {
+    id: 13,
+    name: "Tailwind",
+    icon: Tailwind,
   },
 ];
 function Skills() {
