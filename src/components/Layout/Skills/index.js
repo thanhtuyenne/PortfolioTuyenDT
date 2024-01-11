@@ -91,9 +91,10 @@ function Skills() {
         <div className={cx("skill-header")}>
           <h2 className={cx("skill-header-title")}>WHAT I DO</h2>
           <p className={cx("skill-header-desc")}>
-            I'm just graduated from FPTU with major is Software Engineering. And
-            I'm waiting GPA from school. Below are the skills I have learned as
-            well as experienced
+            Below are the skills I have learned as well as experienced. I am{" "}
+            <b>eager to learn</b> new programming languages and self-study for
+            work. I hope to have the opportunity to work on actual projects and
+            gain practical experience.
           </p>
         </div>
         <div className={cx("skill-list")}>

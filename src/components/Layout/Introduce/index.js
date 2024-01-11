@@ -15,17 +15,26 @@ function Introduce() {
             I'm <span className={cx("name-highlight")}>TuyenDT</span>
           </h1>
           <h3>Front-End Developer</h3>
+          <div className={cx("about-me")}>
+            <span>
+              I'm graduated from FPTU with major is Software Engineering and my{" "}
+              {""}
+              <b>GPA is 7.88/10</b>. I have a <b>TOEIC</b> certificate with a
+              score of <b>705</b> and I can communicate in English. I am also
+              learning <b>Japanese</b> to enhance my career prospects.
+            </span>
+          </div>
           <button className={cx("btn-cv")}>
             <a
               href="https://drive.google.com/file/d/1spZCwZGtVvwoqI30k6S8YPoHb7g60y43/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              MY CV{" "}
-              <FontAwesomeIcon
+              MY RESUME{" "}
+              {/* <FontAwesomeIcon
                 icon={faInfoCircle}
                 className={cx("btn-info-icon")}
-              />
+              /> */}
             </a>
           </button>
         </div>
